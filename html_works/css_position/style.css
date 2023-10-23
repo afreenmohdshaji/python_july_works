@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+}
+.parent{
+    width: 60%;
+    height: 300px;
+    background-color: cyan;
+    position: relative;
+}
+.child{
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    position: absolute;
+    left: 10%;
+
+}
+.child2{
+    width: 200px;
+    height: 100px;
+    background-color: blueviolet;
+    position: absolute;
+    left: 60%;
+}
+.fixed{
+    width: 150px;
+    height: 100px;
+    background-color: aquamarine;
+    position: fixed;
+    top: 20%;
+    left: 80%;
+
+}
+.sticky{
+    width: 150px;
+    height: 100px;
+    background-color: brown;
+    position: sticky;
+    top: 0%;
+}

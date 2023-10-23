@@ -1,0 +1,4 @@
+print() = display message in console
+input() = read value from console
+type() = return datatype of object
+range() = return sequence of values from start to end (start,end,step) step=1(always)

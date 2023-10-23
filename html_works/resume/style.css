@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(148, 146, 146);
+}
+.parent{
+    min-width: 80%;
+    min-height: 500px;
+    background-color: rgb(148, 146, 146);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-row: 1fr 1fr;
+    grid-gap: 20px;
+}
+.child{
+    border: 2px solid black;
+    background-color: white;
+
+
+}
+.parent .child:nth-child(1){
+    grid-row-start: 1;
+    grid-row-end: 3;
+   
+}
+.child ul{
+    list-style: none;
+    line-height: 30px;
+}
+.child img{
+    min-width: 415px;
+    height: 300px;
+}
+.box{
+    width: 80px;
+    height: 10px;
+    background-color: green;
+    color: white;
+}
+h5{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+.mt meter{
+    width: 415px;
+}

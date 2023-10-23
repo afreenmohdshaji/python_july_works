@@ -1,0 +1,25 @@
+.parent{
+    width: 900px;
+    min-height: 900px;
+    background-color: blue;
+    border: 5px solid black;
+}
+.child{
+    text-align: center;
+    border: 3px solid brown;
+}
+.yellow{
+    width: 450px;
+    height: 150px;
+    background-color: yellow;
+}
+.red{
+    width: 280px;
+    height: 150px;
+    background-color: red;
+}
+.one{
+    width: 450px;
+    height: 50px;
+    background-color: green;
+}
